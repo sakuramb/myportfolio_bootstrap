@@ -1,0 +1,190 @@
+<!doctype html><!-- HTML5-->
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap の CSS（CDN経由）の読み込み -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/custom.css" type="text/css">
+  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+  <title>Hello, world!</title>
+<style>
+  .jumbotron {
+      background: url(image/main.jpg) no-repeat center center;
+      background-size: cover;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+</style>
+<!-- Custom styles for this template -->
+<link href="jumbotron.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" href="#">my portfolio</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link active" href="#page1">Profile</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#page2">Career</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link active" href="#page3">SKills</a>
+
+
+          <!-- <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+          <div class="dropdown-menu" aria-labelledby="dropdown01">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div> -->
+        </li>
+      </ul>
+
+      <!-- <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form> -->
+    </div>
+</nav>
+
+<main role="main">
+  <section class="jumbotron text-center">
+        <div class="container mt-5">
+          <h1 class="jumbotron-heading text-dark mb-5">Sakura Homma's portfolio</h1>
+          <!-- <p class="lead text-muted">リード文記入</p> -->
+          <p>
+            <a href="#contact" class="btn btn-primary">Contact me</a>
+            <!-- <a href="#" class="btn btn-secondary">Secondary action</a> -->
+          </p>
+          <a href="http://twitter.com/share?url=直す"><i class="fab fa-twitter icon"></i></a>
+          <a href="https://www.facebook.com/sharer/sharer.php?u=http://qiita.com/katsuma"><i class="fab fa-facebook icon"></i></a>
+          <a href="http://line.me/R/msg/text/?http://qiita.com/katsuma"><i class="fab fa-line icon"></i></a>
+        </div>
+  </section>
+
+
+        <!-- <img class="rounded-circle mx-auto" src="image/sakura.png" alt="Generic placeholder image" width="140" height="140"> -->
+
+  <div class="maintext text-dark">
+
+          <div class="about">
+            <div class="row justify-content-center">
+              <div class="col-sm-5 shadow p-3 mb-5 bg-white rounded" id="page1">
+                <h3 class="page-section-heading text-center text-uppercase text-secondary mb-5">Profile</h3>
+                <p>初めまして、本間 さくらと申します。</p>
+                <p>山形県出身の27歳です。</p>
+                <p>未経験からプログラマーを目指しております。</p>
+                <!-- <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p> -->
+              </div>
+            </div>
+
+            <div class="row justify-content-center">
+              <div class="col-sm-5 shadow p-3 mb-5 bg-white text-center rounded" id="page2">
+                <h3 class="page-section-heading text-center text-uppercase text-secondary mb-5">Career</h3>
+                <p>工学部を卒業後大学院に進学し有機合成化学を専攻。</p>
+                <p>製薬メーカーの開業医販路MRとして2年間勤務。</p>
+                <p>現在プログラミングスクールにて学習中。</p>
+                <!-- <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p> -->
+              </div>
+            </div>
+
+            <div class="row justify-content-center">
+              <div class="col-sm-5 shadow p-3 mb-5 bg-white rounded" id="page3">
+                <h3 class="page-section-heading text-center text-uppercase text-secondary mb-5">Skills</h3>
+                <ul>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>PHP</li>
+                  <li>Laravel</li>
+                </ul>
+                <!-- <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p> -->
+              </div>
+            </div>
+          </div>
+
+  <!-- Contact Section -->
+         <section class="page-section" id="contact">
+            <div class="container">
+        <!-- Contact Section Form -->
+            <div class="row justify-content-center">
+              <div class="col-sm-5 shadow p-3 mb-5 bg-white  rounded">
+                <!-- Contact Section Heading -->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact Me</h2>
+                <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
+                <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                  <div class="control-group">
+                    <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                      <label>Name</label>
+                      <input class="form-control" id="name" type="text" placeholder="Name" required="required" data-validation-required-message="Please enter your name.">
+                      <p class="help-block text-danger"></p>
+                    </div>
+                  </div>
+                  <div class="control-group">
+                    <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                      <label>Email Address</label>
+                      <input class="form-control" id="email" type="email" placeholder="Email Address" required="required" data-validation-required-message="Please enter your email address.">
+                      <p class="help-block text-danger"></p>
+                    </div>
+                  </div>
+                  <div class="control-group">
+                    <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                      <label>Phone Number</label>
+                      <input class="form-control" id="phone" type="tel" placeholder="Phone Number" required="required" data-validation-required-message="Please enter your phone number.">
+                      <p class="help-block text-danger"></p>
+                    </div>
+                  </div>
+                  <div class="control-group">
+                    <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                      <label>Message</label>
+                      <textarea class="form-control" id="message" rows="5" placeholder="Message" required="required" data-validation-required-message="Please enter a message."></textarea>
+                      <p class="help-block text-danger"></p>
+                    </div>
+                  </div>
+                  <br>
+                  <div id="success"></div>
+                  <div class="form-group">
+                    <button type="submit" class="btn btn-primary btn-xl" id="sendMessageButton">Send</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+
+            </div>
+        </section>
+
+  </div>
+
+
+</main>
+
+<footer class="container">
+<p>&copy; Sakura Homma</p>
+</footer>
+  <!-- 関連 JavaScript の読み込み-->
+  <!-- jQuery, Popper.js, Bootstrap JS の順に読み込みます-->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <!-- Contact Form JavaScript -->
+  <script src="js/jqBootstrapValidation.js"></script>
+  <script src="js/contact_me.js"></script>
+</body>
+</html>
